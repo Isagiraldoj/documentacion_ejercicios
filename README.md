@@ -12,15 +12,15 @@ Se explica lo que hacen los estados del INIT y el WAIT_TIMEOUT y su relación co
 Millis()devuelve el número de milisegundos desde que la placa Arduino empezó a ejecutar, luego de un reinicio o el encendido
 
 ### Ejercicio 8: retrieval practice
-¿Cuáles son los estados del programa?
 
+**¿Cuáles son los estados del programa?**  
 INIT  
 WAIT_TIMEOUT  
 
-¿Cuáles son los eventos?   
+**¿Cuáles son los eventos?**   
 Task 1, Task 2, Task 3 (espera de segundos en cada caso)
 
-¿Cuáles son las acciones?  
+**¿Cuáles son las acciones?**  
 Serial.print
 
 ### Ejercicio 9: Tareas Concurrentes
@@ -45,7 +45,7 @@ En Arduino no se debe tener ninguna precaución ya que este solo pasa la informa
 
 En esta sección nos muestran una serie de pasos para usar el ScriptCommunicator y ver el monitor serial, cuando lo conectamos en el programa y enviamos un carácter en la caja de texto, nos mostraba un mensaje de “Hola Computador”, es de suma importancia oprimir el botón de send, ya que si se oprime el enter este también es un carácter y se estarían dos input.
 
-Ejercicio 12: Punteros
+### Ejercicio 12: Punteros
 
 **¿Cómo se declara un puntero?**  
 Un puntero se declara con tipo de variable y asterisco antes del nombre del puntero  
